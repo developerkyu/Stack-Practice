@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E08CA8C02A0F235400528067 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E08CA8BF2A0F235400528067 /* main.c */; };
+		E08CA8C02A0F235400528067 /* Test_ArrayStack.c in Sources */ = {isa = PBXBuildFile; fileRef = E08CA8BF2A0F235400528067 /* Test_ArrayStack.c */; };
+		E08CA8C82A0F23C900528067 /* ArrayStack.c in Sources */ = {isa = PBXBuildFile; fileRef = E08CA8C72A0F23C900528067 /* ArrayStack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		E08CA8BC2A0F235400528067 /* Stack-Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stack-Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E08CA8BF2A0F235400528067 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E08CA8BF2A0F235400528067 /* Test_ArrayStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Test_ArrayStack.c; sourceTree = "<group>"; };
+		E08CA8C62A0F23C900528067 /* ArrayStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
+		E08CA8C72A0F23C900528067 /* ArrayStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayStack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		E08CA8BE2A0F235400528067 /* Stack-Practice */ = {
 			isa = PBXGroup;
 			children = (
-				E08CA8BF2A0F235400528067 /* main.c */,
+				E08CA8BF2A0F235400528067 /* Test_ArrayStack.c */,
+				E08CA8C62A0F23C900528067 /* ArrayStack.h */,
+				E08CA8C72A0F23C900528067 /* ArrayStack.c */,
 			);
 			path = "Stack-Practice";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08CA8C02A0F235400528067 /* main.c in Sources */,
+				E08CA8C82A0F23C900528067 /* ArrayStack.c in Sources */,
+				E08CA8C02A0F235400528067 /* Test_ArrayStack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
